@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1020190915860",
+    "firebase_url": "https://geo4-4fe5b.firebaseio.com",
+    "project_id": "geo4-4fe5b",
+    "storage_bucket": "geo4-4fe5b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1020190915860:android:cafa514f775aeeb4",
+        "android_client_info": {
+          "package_name": "com.example.alexis.geofenceapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1020190915860-pvurrmfbjqlo551q8nujg3ul6lrrp0bn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdHC1HwO85xD5THAPC0jDtjr1CMk76Qqo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

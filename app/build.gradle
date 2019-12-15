@@ -1,0 +1,44 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion "28.0.3"
+    defaultConfig {
+        applicationId "com.example.alexis.geofenceapp"
+        minSdkVersion 15
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    //noinspection GradleCompatible
+    implementation 'androidx.appcompat:appcompat:1.0.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    //implementation 'com.google.android.gms:play-services-maps:16.1.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.0'
+    //implementation 'com.google.android.gms:play-services:12.0.1'
+    implementation 'com.firebase:geofire-android:2.1.2'
+    //GeoFire is an open-source library for Android/Java that allows you to store and query a set of keys based on their geographic location.
+    implementation 'com.google.firebase:firebase-core:16.0.7'
+    implementation 'com.google.firebase:firebase-database:16.0.6'
+    implementation 'com.google.firebase:firebase-database:16.0.6'
+    implementation 'com.h6ah4i.android.widget.verticalseekbar:verticalseekbar:0.7.0'
+    implementation "com.google.android.gms:play-services-base:+"
+    implementation 'com.google.android.gms:play-services-location:+'
+    implementation 'com.google.android.gms:play-services-maps:+'
+
+}
+apply plugin: 'com.google.gms.google-services'
